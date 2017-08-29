@@ -1,7 +1,7 @@
 import { Component, OnInit , Inject} from '@angular/core';
 import { Problem } from '../../models/problem.model';
-import {PROBLEMS} from '../../mock-problem';
-
+import { PROBLEMS } from '../../mock-problem';
+import { Subscription } from 'rxjs/Subscription';
 
 @Component({
   selector: 'app-problemlist',
@@ -9,7 +9,10 @@ import {PROBLEMS} from '../../mock-problem';
   styleUrls: ['./problemlist.component.css']
 })
 export class ProblemlistComponent implements OnInit {
-  problems : Problem[];
+
+  problems : Problem[] = [];
+  subscriptionProblems: Subscription;
+
   constructor(@Inject("data") private data) { }
 
   ngOnInit() {
@@ -17,7 +20,8 @@ export class ProblemlistComponent implements OnInit {
     this.getProblems() ;
   }
   getProblems() : void{
-    this.problems = this.data.getProblems();
+    this.subscriptionProblems = this.data.getProblems()
+                                          .subscribe(problems => this.problems = problems);
   }
 
 }
