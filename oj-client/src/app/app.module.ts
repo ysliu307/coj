@@ -10,12 +10,16 @@ import { DataService } from './services/data.service';
 import { ProblemdetailComponent } from './components/problemdetail/problemdetail.component';
 
 import { routing } from './app.routes';
+import { AddProblemComponent } from './components/add-problem/add-problem.component';
+import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProblemlistComponent,
-    ProblemdetailComponent
+    ProblemdetailComponent,
+    AddProblemComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,

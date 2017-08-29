@@ -1,0 +1,1708 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'uninstall',
+1 verbose cli   '-g',
+1 verbose cli   'angular-cli' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly uninstall loadAllDepsIntoIdealtree
+19 silly loadAllDepsIntoIdealTree Finishing
+20 silly loadIdealTree Finishing
+21 silly currentTree lib
+21 silly currentTree └─┬ angular-cli@1.0.0-beta.28.3
+21 silly currentTree   ├─┬ @angular-cli/ast-tools@1.0.16
+21 silly currentTree   │ ├── denodeify@1.2.1
+21 silly currentTree   │ ├── minimist@1.2.0
+21 silly currentTree   │ ├─┬ mkdirp@0.5.1
+21 silly currentTree   │ │ └── minimist@0.0.8
+21 silly currentTree   │ ├── rxjs@5.1.0
+21 silly currentTree   │ ├── source-map-support@0.4.11
+21 silly currentTree   │ ├── source-map@0.5.6
+21 silly currentTree   │ ├── symbol-observable@1.0.4
+21 silly currentTree   │ ├── tsickle@0.2.5
+21 silly currentTree   │ └── typescript@2.0.10
+21 silly currentTree   ├── @angular-cli/base-href-webpack@1.0.16
+21 silly currentTree   ├── @angular/compiler-cli@2.4.10
+21 silly currentTree   ├── @angular/compiler@2.4.10
+21 silly currentTree   ├── @angular/core@2.4.10
+21 silly currentTree   ├── @angular/tsc-wrapped@0.5.2
+21 silly currentTree   ├── @ngtools/json-schema@1.1.0
+21 silly currentTree   ├── @ngtools/webpack@1.5.5
+21 silly currentTree   ├── abbrev@1.1.0
+21 silly currentTree   ├── accepts@1.3.3
+21 silly currentTree   ├── acorn-dynamic-import@2.0.2
+21 silly currentTree   ├── acorn@4.0.13
+21 silly currentTree   ├── ajv-keywords@1.5.1
+21 silly currentTree   ├── ajv@5.2.2
+21 silly currentTree   ├── align-text@0.1.4
+21 silly currentTree   ├── alphanum-sort@1.0.2
+21 silly currentTree   ├── amdefine@1.0.1
+21 silly currentTree   ├── ansi-escapes@1.4.0
+21 silly currentTree   ├── ansi-regex@2.1.1
+21 silly currentTree   ├── ansi-styles@2.2.1
+21 silly currentTree   ├── anymatch@1.3.2
+21 silly currentTree   ├── aproba@1.1.2
+21 silly currentTree   ├─┬ are-we-there-yet@1.1.4
+21 silly currentTree   │ ├── isarray@1.0.0
+21 silly currentTree   │ ├── readable-stream@2.3.3
+21 silly currentTree   │ └── string_decoder@1.0.3
+21 silly currentTree   ├── argparse@1.0.9
+21 silly currentTree   ├── arr-diff@2.0.0
+21 silly currentTree   ├── arr-flatten@1.1.0
+21 silly currentTree   ├── array-differ@1.0.0
+21 silly currentTree   ├── array-find-index@1.0.2
+21 silly currentTree   ├── array-flatten@1.1.1
+21 silly currentTree   ├── array-uniq@1.0.3
+21 silly currentTree   ├── array-unique@0.2.1
+21 silly currentTree   ├── asap@2.0.6
+21 silly currentTree   ├── asn1.js@4.9.1
+21 silly currentTree   ├── asn1@0.2.3
+21 silly currentTree   ├── assert-plus@0.2.0
+21 silly currentTree   ├── assert@1.4.1
+21 silly currentTree   ├── async-each@1.0.1
+21 silly currentTree   ├── async-foreach@0.1.3
+21 silly currentTree   ├── async@2.5.0
+21 silly currentTree   ├── asynckit@0.4.0
+21 silly currentTree   ├── autoprefixer@6.7.7
+21 silly currentTree   ├── aws-sign2@0.6.0
+21 silly currentTree   ├── aws4@1.6.0
+21 silly currentTree   ├── babel-code-frame@6.22.0
+21 silly currentTree   ├── babel-runtime@6.25.0
+21 silly currentTree   ├── balanced-match@0.4.2
+21 silly currentTree   ├── base64-js@1.2.1
+21 silly currentTree   ├── batch@0.6.1
+21 silly currentTree   ├── bcrypt-pbkdf@1.0.1
+21 silly currentTree   ├── beeper@1.1.1
+21 silly currentTree   ├── big.js@3.1.3
+21 silly currentTree   ├── binary-extensions@1.9.0
+21 silly currentTree   ├── block-stream@0.0.9
+21 silly currentTree   ├── bluebird@3.5.0
+21 silly currentTree   ├── bn.js@4.11.8
+21 silly currentTree   ├── boolbase@1.0.0
+21 silly currentTree   ├── boom@2.10.1
+21 silly currentTree   ├─┬ brace-expansion@1.1.8
+21 silly currentTree   │ └── balanced-match@1.0.0
+21 silly currentTree   ├── braces@1.8.5
+21 silly currentTree   ├── brorand@1.1.0
+21 silly currentTree   ├── browserify-aes@1.0.6
+21 silly currentTree   ├── browserify-cipher@1.0.0
+21 silly currentTree   ├── browserify-des@1.0.0
+21 silly currentTree   ├── browserify-rsa@4.0.1
+21 silly currentTree   ├── browserify-sign@4.0.4
+21 silly currentTree   ├── browserify-zlib@0.1.4
+21 silly currentTree   ├── browserslist@1.7.7
+21 silly currentTree   ├── buffer-xor@1.0.3
+21 silly currentTree   ├─┬ buffer@4.9.1
+21 silly currentTree   │ └── isarray@1.0.0
+21 silly currentTree   ├── builtin-modules@1.1.1
+21 silly currentTree   ├── builtin-status-codes@3.0.0
+21 silly currentTree   ├── bytes@2.5.0
+21 silly currentTree   ├── camel-case@3.0.0
+21 silly currentTree   ├── camelcase-keys@2.1.0
+21 silly currentTree   ├── camelcase@2.1.1
+21 silly currentTree   ├── caniuse-api@1.6.1
+21 silly currentTree   ├── caniuse-db@1.0.30000713
+21 silly currentTree   ├── caseless@0.12.0
+21 silly currentTree   ├── center-align@0.1.3
+21 silly currentTree   ├─┬ chalk@1.1.3
+21 silly currentTree   │ └── supports-color@2.0.0
+21 silly currentTree   ├── chokidar@1.7.0
+21 silly currentTree   ├── cipher-base@1.0.4
+21 silly currentTree   ├── clap@1.2.0
+21 silly currentTree   ├── clean-css@4.1.7
+21 silly currentTree   ├── cli-cursor@1.0.2
+21 silly currentTree   ├── cli-spinners@0.1.2
+21 silly currentTree   ├── cli-width@2.1.0
+21 silly currentTree   ├── cliui@3.2.0
+21 silly currentTree   ├── clone-stats@0.0.1
+21 silly currentTree   ├── clone@1.0.2
+21 silly currentTree   ├── co@4.6.0
+21 silly currentTree   ├── coa@1.0.4
+21 silly currentTree   ├── code-point-at@1.1.0
+21 silly currentTree   ├── color-convert@1.9.0
+21 silly currentTree   ├── color-name@1.1.3
+21 silly currentTree   ├── color-string@0.3.0
+21 silly currentTree   ├── color@0.11.4
+21 silly currentTree   ├── colormin@1.1.2
+21 silly currentTree   ├── colors@1.1.2
+21 silly currentTree   ├── combined-stream@1.0.5
+21 silly currentTree   ├── commander@2.1.0
+21 silly currentTree   ├── common-tags@1.4.0
+21 silly currentTree   ├── compressible@2.0.11
+21 silly currentTree   ├── compression@1.7.0
+21 silly currentTree   ├── concat-map@0.0.1
+21 silly currentTree   ├── connect-history-api-fallback@1.3.0
+21 silly currentTree   ├── console-browserify@1.1.0
+21 silly currentTree   ├── console-control-strings@1.1.0
+21 silly currentTree   ├── constants-browserify@1.0.0
+21 silly currentTree   ├── content-disposition@0.5.2
+21 silly currentTree   ├── content-type@1.0.2
+21 silly currentTree   ├── cookie-signature@1.0.6
+21 silly currentTree   ├── cookie@0.3.1
+21 silly currentTree   ├── core-js@2.5.0
+21 silly currentTree   ├── core-util-is@1.0.2
+21 silly currentTree   ├── create-ecdh@4.0.0
+21 silly currentTree   ├── create-hash@1.1.3
+21 silly currentTree   ├── create-hmac@1.1.6
+21 silly currentTree   ├── cross-spawn@3.0.1
+21 silly currentTree   ├── cryptiles@2.0.5
+21 silly currentTree   ├── crypto-browserify@3.11.1
+21 silly currentTree   ├── css-color-names@0.0.4
+21 silly currentTree   ├── css-loader@0.26.4
+21 silly currentTree   ├── css-parse@1.7.0
+21 silly currentTree   ├── css-select@1.2.0
+21 silly currentTree   ├── css-selector-tokenizer@0.7.0
+21 silly currentTree   ├── css-what@2.1.0
+21 silly currentTree   ├── cssesc@0.1.0
+21 silly currentTree   ├── cssnano@3.10.0
+21 silly currentTree   ├── csso@2.3.2
+21 silly currentTree   ├── currently-unhandled@0.4.1
+21 silly currentTree   ├─┬ dashdash@1.14.1
+21 silly currentTree   │ └── assert-plus@1.0.0
+21 silly currentTree   ├── date-now@0.1.4
+21 silly currentTree   ├── dateformat@1.0.12
+21 silly currentTree   ├── debug@2.6.8
+21 silly currentTree   ├── decamelize@1.2.0
+21 silly currentTree   ├── deep-is@0.1.3
+21 silly currentTree   ├── defined@1.0.0
+21 silly currentTree   ├── delayed-stream@1.0.0
+21 silly currentTree   ├── delegates@1.0.0
+21 silly currentTree   ├── denodeify@1.2.1
+21 silly currentTree   ├── depd@1.1.1
+21 silly currentTree   ├── des.js@1.0.0
+21 silly currentTree   ├── destroy@1.0.4
+21 silly currentTree   ├── detect-node@2.0.3
+21 silly currentTree   ├── diff@2.2.3
+21 silly currentTree   ├── diffie-hellman@5.0.2
+21 silly currentTree   ├─┬ dom-converter@0.1.4
+21 silly currentTree   │ └── utila@0.3.3
+21 silly currentTree   ├─┬ dom-serializer@0.1.0
+21 silly currentTree   │ └── domelementtype@1.1.3
+21 silly currentTree   ├── dom-walk@0.1.1
+21 silly currentTree   ├── domain-browser@1.1.7
+21 silly currentTree   ├── domelementtype@1.3.0
+21 silly currentTree   ├── domhandler@2.1.0
+21 silly currentTree   ├── domutils@1.5.1
+21 silly currentTree   ├─┬ duplexer2@0.0.2
+21 silly currentTree   │ └── readable-stream@1.1.14
+21 silly currentTree   ├── ecc-jsbn@0.1.1
+21 silly currentTree   ├── ee-first@1.1.1
+21 silly currentTree   ├── electron-to-chromium@1.3.17
+21 silly currentTree   ├── elliptic@6.4.0
+21 silly currentTree   ├── ember-cli-normalize-entity-name@1.0.0
+21 silly currentTree   ├── ember-cli-string-utils@1.1.0
+21 silly currentTree   ├── emojis-list@2.1.0
+21 silly currentTree   ├── encodeurl@1.0.1
+21 silly currentTree   ├── enhanced-resolve@3.4.1
+21 silly currentTree   ├── ensure-posix-path@1.0.2
+21 silly currentTree   ├── entities@1.1.1
+21 silly currentTree   ├── errno@0.1.4
+21 silly currentTree   ├── error-ex@1.3.1
+21 silly currentTree   ├── escape-html@1.0.3
+21 silly currentTree   ├── escape-string-regexp@1.0.5
+21 silly currentTree   ├─┬ escodegen@1.8.1
+21 silly currentTree   │ └── source-map@0.2.0
+21 silly currentTree   ├── esprima@2.7.3
+21 silly currentTree   ├── estraverse@1.9.3
+21 silly currentTree   ├── esutils@2.0.2
+21 silly currentTree   ├── etag@1.8.0
+21 silly currentTree   ├── eventemitter3@1.2.0
+21 silly currentTree   ├── events@1.1.1
+21 silly currentTree   ├── eventsource@0.1.6
+21 silly currentTree   ├── evp_bytestokey@1.0.0
+21 silly currentTree   ├── exists-sync@0.0.3
+21 silly currentTree   ├── exit-hook@1.1.1
+21 silly currentTree   ├── expand-brackets@0.1.5
+21 silly currentTree   ├── expand-range@1.8.2
+21 silly currentTree   ├─┬ express@4.15.4
+21 silly currentTree   │ └── qs@6.5.0
+21 silly currentTree   ├── extend@3.0.1
+21 silly currentTree   ├── extglob@0.3.2
+21 silly currentTree   ├─┬ extract-text-webpack-plugin@2.1.2
+21 silly currentTree   │ ├── source-list-map@2.0.0
+21 silly currentTree   │ └── webpack-sources@1.0.1
+21 silly currentTree   ├── extsprintf@1.3.0
+21 silly currentTree   ├─┬ fancy-log@1.3.0
+21 silly currentTree   │ └── time-stamp@1.1.0
+21 silly currentTree   ├── fast-deep-equal@1.0.0
+21 silly currentTree   ├── fast-levenshtein@2.0.6
+21 silly currentTree   ├── fastparse@1.1.1
+21 silly currentTree   ├── faye-websocket@0.10.0
+21 silly currentTree   ├── figures@1.7.0
+21 silly currentTree   ├─┬ file-loader@0.8.5
+21 silly currentTree   │ └── loader-utils@0.2.17
+21 silly currentTree   ├── filename-regex@2.0.1
+21 silly currentTree   ├─┬ fileset@0.2.1
+21 silly currentTree   │ ├── glob@5.0.15
+21 silly currentTree   │ └── minimatch@2.0.10
+21 silly currentTree   ├── fill-range@2.2.3
+21 silly currentTree   ├── finalhandler@1.0.4
+21 silly currentTree   ├── find-up@1.1.2
+21 silly currentTree   ├─┬ findup@0.1.5
+21 silly currentTree   │ └── colors@0.6.2
+21 silly currentTree   ├── flatten@1.0.2
+21 silly currentTree   ├── for-in@1.0.2
+21 silly currentTree   ├── for-own@0.1.5
+21 silly currentTree   ├── forever-agent@0.6.1
+21 silly currentTree   ├── form-data@2.1.4
+21 silly currentTree   ├── forwarded@0.1.0
+21 silly currentTree   ├── fresh@0.5.0
+21 silly currentTree   ├── fs-extra@0.30.0
+21 silly currentTree   ├── fs.realpath@1.0.0
+21 silly currentTree   ├── fstream@1.0.11
+21 silly currentTree   ├── function-bind@1.1.0
+21 silly currentTree   ├── gauge@2.7.4
+21 silly currentTree   ├── gaze@1.1.2
+21 silly currentTree   ├── get-caller-file@1.0.2
+21 silly currentTree   ├── get-stdin@4.0.1
+21 silly currentTree   ├─┬ getpass@0.1.7
+21 silly currentTree   │ └── assert-plus@1.0.0
+21 silly currentTree   ├── glob-base@0.3.0
+21 silly currentTree   ├── glob-parent@2.0.0
+21 silly currentTree   ├── glob@7.1.2
+21 silly currentTree   ├─┬ global@4.3.2
+21 silly currentTree   │ └── process@0.5.2
+21 silly currentTree   ├── globule@1.2.0
+21 silly currentTree   ├── glogg@1.0.0
+21 silly currentTree   ├── graceful-fs@4.1.11
+21 silly currentTree   ├─┬ gulp-util@3.0.7
+21 silly currentTree   │ └── object-assign@3.0.0
+21 silly currentTree   ├── gulplog@1.0.0
+21 silly currentTree   ├── handle-thing@1.2.5
+21 silly currentTree   ├─┬ handlebars@4.0.10
+21 silly currentTree   │ ├── async@1.5.2
+21 silly currentTree   │ ├── camelcase@1.2.1
+21 silly currentTree   │ ├── cliui@2.1.0
+21 silly currentTree   │ ├── source-map@0.4.4
+21 silly currentTree   │ ├─┬ uglify-js@2.8.29
+21 silly currentTree   │ │ └── source-map@0.5.6
+21 silly currentTree   │ ├── wordwrap@0.0.2
+21 silly currentTree   │ └── yargs@3.10.0
+21 silly currentTree   ├── har-schema@1.0.5
+21 silly currentTree   ├─┬ har-validator@4.2.1
+21 silly currentTree   │ └── ajv@4.11.8
+21 silly currentTree   ├── has-ansi@2.0.0
+21 silly currentTree   ├── has-flag@1.0.0
+21 silly currentTree   ├── has-gulplog@0.1.0
+21 silly currentTree   ├── has-unicode@2.0.1
+21 silly currentTree   ├── has@1.0.1
+21 silly currentTree   ├── hash-base@2.0.2
+21 silly currentTree   ├── hash.js@1.1.3
+21 silly currentTree   ├── hawk@3.1.3
+21 silly currentTree   ├── he@1.1.1
+21 silly currentTree   ├── hmac-drbg@1.0.1
+21 silly currentTree   ├── hoek@2.16.3
+21 silly currentTree   ├── hosted-git-info@2.5.0
+21 silly currentTree   ├─┬ hpack.js@2.1.6
+21 silly currentTree   │ ├── isarray@1.0.0
+21 silly currentTree   │ ├── readable-stream@2.3.3
+21 silly currentTree   │ └── string_decoder@1.0.3
+21 silly currentTree   ├── html-comment-regex@1.1.1
+21 silly currentTree   ├─┬ html-minifier@3.5.3
+21 silly currentTree   │ └── commander@2.11.0
+21 silly currentTree   ├─┬ html-webpack-plugin@2.30.1
+21 silly currentTree   │ └── loader-utils@0.2.17
+21 silly currentTree   ├─┬ htmlparser2@3.3.0
+21 silly currentTree   │ └── domutils@1.1.6
+21 silly currentTree   ├── http-deceiver@1.2.7
+21 silly currentTree   ├── http-errors@1.6.2
+21 silly currentTree   ├─┬ http-proxy-middleware@0.17.4
+21 silly currentTree   │ ├── is-extglob@2.1.1
+21 silly currentTree   │ └── is-glob@3.1.0
+21 silly currentTree   ├── http-proxy@1.16.2
+21 silly currentTree   ├── http-signature@1.1.1
+21 silly currentTree   ├── https-browserify@0.0.1
+21 silly currentTree   ├── icss-replace-symbols@1.1.0
+21 silly currentTree   ├── ieee754@1.1.8
+21 silly currentTree   ├── image-size@0.5.5
+21 silly currentTree   ├── in-publish@2.0.0
+21 silly currentTree   ├── indent-string@2.1.0
+21 silly currentTree   ├── indexes-of@1.0.1
+21 silly currentTree   ├── indexof@0.0.1
+21 silly currentTree   ├── inflection@1.12.0
+21 silly currentTree   ├── inflight@1.0.6
+21 silly currentTree   ├── inherits@2.0.3
+21 silly currentTree   ├── inquirer@0.12.0
+21 silly currentTree   ├── interpret@1.0.3
+21 silly currentTree   ├── invert-kv@1.0.0
+21 silly currentTree   ├── ipaddr.js@1.4.0
+21 silly currentTree   ├── is-absolute-url@2.1.0
+21 silly currentTree   ├── is-arrayish@0.2.1
+21 silly currentTree   ├── is-binary-path@1.0.1
+21 silly currentTree   ├── is-buffer@1.1.5
+21 silly currentTree   ├── is-builtin-module@1.0.0
+21 silly currentTree   ├── is-dotfile@1.0.3
+21 silly currentTree   ├── is-equal-shallow@0.1.3
+21 silly currentTree   ├── is-extendable@0.1.1
+21 silly currentTree   ├── is-extglob@1.0.0
+21 silly currentTree   ├── is-finite@1.0.2
+21 silly currentTree   ├── is-fullwidth-code-point@1.0.0
+21 silly currentTree   ├── is-glob@2.0.1
+21 silly currentTree   ├── is-number@2.1.0
+21 silly currentTree   ├── is-plain-obj@1.1.0
+21 silly currentTree   ├── is-posix-bracket@0.1.1
+21 silly currentTree   ├── is-primitive@2.0.0
+21 silly currentTree   ├── is-svg@2.1.0
+21 silly currentTree   ├── is-typedarray@1.0.0
+21 silly currentTree   ├── is-utf8@0.2.1
+21 silly currentTree   ├── isarray@0.0.1
+21 silly currentTree   ├── isbinaryfile@2.0.4
+21 silly currentTree   ├── isexe@2.0.0
+21 silly currentTree   ├─┬ isobject@2.1.0
+21 silly currentTree   │ └── isarray@1.0.0
+21 silly currentTree   ├── isstream@0.1.2
+21 silly currentTree   ├─┬ istanbul@0.4.3
+21 silly currentTree   │ ├── abbrev@1.0.9
+21 silly currentTree   │ ├── async@1.5.2
+21 silly currentTree   │ └── resolve@1.1.7
+21 silly currentTree   ├── js-base64@2.1.9
+21 silly currentTree   ├── js-tokens@3.0.2
+21 silly currentTree   ├── js-yaml@3.7.0
+21 silly currentTree   ├── jsbn@0.1.1
+21 silly currentTree   ├── jsesc@0.5.0
+21 silly currentTree   ├── json-loader@0.5.7
+21 silly currentTree   ├── json-schema-traverse@0.3.1
+21 silly currentTree   ├── json-schema@0.2.3
+21 silly currentTree   ├── json-stable-stringify@1.0.1
+21 silly currentTree   ├── json-stringify-safe@5.0.1
+21 silly currentTree   ├── json3@3.3.2
+21 silly currentTree   ├── json5@0.5.1
+21 silly currentTree   ├── jsonfile@2.4.0
+21 silly currentTree   ├── jsonify@0.0.0
+21 silly currentTree   ├─┬ jsprim@1.4.1
+21 silly currentTree   │ └── assert-plus@1.0.0
+21 silly currentTree   ├── karma-sourcemap-loader@0.3.7
+21 silly currentTree   ├─┬ karma-webpack@1.8.1
+21 silly currentTree   │ ├── async@0.9.2
+21 silly currentTree   │ ├── loader-utils@0.2.17
+21 silly currentTree   │ ├── lodash@3.10.1
+21 silly currentTree   │ └── source-map@0.1.43
+21 silly currentTree   ├── kind-of@3.2.2
+21 silly currentTree   ├── klaw@1.3.1
+21 silly currentTree   ├── lazy-cache@1.0.4
+21 silly currentTree   ├── lcid@1.0.0
+21 silly currentTree   ├─┬ less-loader@2.2.3
+21 silly currentTree   │ └── loader-utils@0.2.17
+21 silly currentTree   ├── less@2.7.2
+21 silly currentTree   ├── levn@0.3.0
+21 silly currentTree   ├── load-json-file@1.1.0
+21 silly currentTree   ├── loader-runner@2.3.0
+21 silly currentTree   ├── loader-utils@1.1.0
+21 silly currentTree   ├── lodash._basecopy@3.0.1
+21 silly currentTree   ├── lodash._basetostring@3.0.1
+21 silly currentTree   ├── lodash._basevalues@3.0.0
+21 silly currentTree   ├── lodash._getnative@3.9.1
+21 silly currentTree   ├── lodash._isiterateecall@3.0.9
+21 silly currentTree   ├── lodash._reescape@3.0.0
+21 silly currentTree   ├── lodash._reevaluate@3.0.0
+21 silly currentTree   ├── lodash._reinterpolate@3.0.0
+21 silly currentTree   ├── lodash._root@3.0.1
+21 silly currentTree   ├── lodash.assign@4.2.0
+21 silly currentTree   ├── lodash.camelcase@4.3.0
+21 silly currentTree   ├── lodash.clonedeep@4.5.0
+21 silly currentTree   ├── lodash.escape@3.2.0
+21 silly currentTree   ├── lodash.isarguments@3.1.0
+21 silly currentTree   ├── lodash.isarray@3.0.4
+21 silly currentTree   ├── lodash.keys@3.1.2
+21 silly currentTree   ├── lodash.memoize@4.1.2
+21 silly currentTree   ├── lodash.mergewith@4.6.0
+21 silly currentTree   ├── lodash.restparam@3.6.1
+21 silly currentTree   ├── lodash.template@3.6.2
+21 silly currentTree   ├── lodash.templatesettings@3.1.1
+21 silly currentTree   ├── lodash.uniq@4.5.0
+21 silly currentTree   ├── lodash@4.17.4
+21 silly currentTree   ├── longest@1.0.1
+21 silly currentTree   ├── loud-rejection@1.6.0
+21 silly currentTree   ├── lower-case@1.1.4
+21 silly currentTree   ├── lru-cache@4.1.1
+21 silly currentTree   ├── macaddress@0.2.8
+21 silly currentTree   ├── magic-string@0.22.4
+21 silly currentTree   ├── map-obj@1.0.1
+21 silly currentTree   ├── matcher-collection@1.0.4
+21 silly currentTree   ├── math-expression-evaluator@1.2.17
+21 silly currentTree   ├── media-typer@0.3.0
+21 silly currentTree   ├─┬ memory-fs@0.4.1
+21 silly currentTree   │ ├── isarray@1.0.0
+21 silly currentTree   │ ├── readable-stream@2.3.3
+21 silly currentTree   │ └── string_decoder@1.0.3
+21 silly currentTree   ├── meow@3.7.0
+21 silly currentTree   ├── merge-descriptors@1.0.1
+21 silly currentTree   ├── methods@1.1.2
+21 silly currentTree   ├── micromatch@2.3.11
+21 silly currentTree   ├── miller-rabin@4.0.0
+21 silly currentTree   ├── mime-db@1.29.0
+21 silly currentTree   ├── mime-types@2.1.16
+21 silly currentTree   ├── mime@1.3.6
+21 silly currentTree   ├── min-document@2.19.0
+21 silly currentTree   ├── minimalistic-assert@1.0.0
+21 silly currentTree   ├── minimalistic-crypto-utils@1.0.1
+21 silly currentTree   ├── minimatch@3.0.4
+21 silly currentTree   ├── minimist@1.2.0
+21 silly currentTree   ├─┬ mkdirp@0.5.1
+21 silly currentTree   │ └── minimist@0.0.8
+21 silly currentTree   ├── ms@2.0.0
+21 silly currentTree   ├── multipipe@0.1.2
+21 silly currentTree   ├── mute-stream@0.0.5
+21 silly currentTree   ├── nan@2.6.2
+21 silly currentTree   ├── ncname@1.0.0
+21 silly currentTree   ├── negotiator@0.6.1
+21 silly currentTree   ├── no-case@2.3.1
+21 silly currentTree   ├─┬ node-gyp@3.6.2
+21 silly currentTree   │ └── semver@5.3.0
+21 silly currentTree   ├─┬ node-libs-browser@2.0.0
+21 silly currentTree   │ ├── isarray@1.0.0
+21 silly currentTree   │ └─┬ readable-stream@2.3.3
+21 silly currentTree   │   └── string_decoder@1.0.3
+21 silly currentTree   ├── node-modules-path@1.0.1
+21 silly currentTree   ├── node-sass@4.5.3
+21 silly currentTree   ├── nopt@3.0.6
+21 silly currentTree   ├── normalize-package-data@2.4.0
+21 silly currentTree   ├── normalize-path@2.1.1
+21 silly currentTree   ├── normalize-range@0.1.2
+21 silly currentTree   ├── normalize-url@1.9.1
+21 silly currentTree   ├── npmlog@4.1.2
+21 silly currentTree   ├── nth-check@1.0.1
+21 silly currentTree   ├── num2fraction@1.2.2
+21 silly currentTree   ├── number-is-nan@1.0.1
+21 silly currentTree   ├── oauth-sign@0.8.2
+21 silly currentTree   ├── object-assign@4.1.1
+21 silly currentTree   ├── object.omit@2.0.1
+21 silly currentTree   ├── obuf@1.1.1
+21 silly currentTree   ├── on-finished@2.3.0
+21 silly currentTree   ├── on-headers@1.0.1
+21 silly currentTree   ├── once@1.4.0
+21 silly currentTree   ├── onetime@1.1.0
+21 silly currentTree   ├── opn@4.0.1
+21 silly currentTree   ├─┬ optimist@0.6.1
+21 silly currentTree   │ ├── minimist@0.0.10
+21 silly currentTree   │ └── wordwrap@0.0.3
+21 silly currentTree   ├── optionator@0.8.2
+21 silly currentTree   ├── ora@0.2.3
+21 silly currentTree   ├─┬ original@1.0.0
+21 silly currentTree   │ └── url-parse@1.0.5
+21 silly currentTree   ├── os-browserify@0.2.1
+21 silly currentTree   ├── os-homedir@1.0.2
+21 silly currentTree   ├── os-locale@1.4.0
+21 silly currentTree   ├── os-tmpdir@1.0.2
+21 silly currentTree   ├── osenv@0.1.4
+21 silly currentTree   ├── pako@0.2.9
+21 silly currentTree   ├── param-case@2.1.1
+21 silly currentTree   ├── parse-asn1@5.1.0
+21 silly currentTree   ├── parse-glob@3.0.4
+21 silly currentTree   ├── parse-json@2.2.0
+21 silly currentTree   ├── parseurl@1.3.1
+21 silly currentTree   ├── path-browserify@0.0.0
+21 silly currentTree   ├── path-exists@2.1.0
+21 silly currentTree   ├── path-is-absolute@1.0.1
+21 silly currentTree   ├── path-parse@1.0.5
+21 silly currentTree   ├── path-to-regexp@0.1.7
+21 silly currentTree   ├── path-type@1.1.0
+21 silly currentTree   ├── pbkdf2@3.0.13
+21 silly currentTree   ├── performance-now@0.2.0
+21 silly currentTree   ├── pify@2.3.0
+21 silly currentTree   ├── pinkie-promise@2.0.1
+21 silly currentTree   ├── pinkie@2.0.4
+21 silly currentTree   ├─┬ portfinder@1.0.9
+21 silly currentTree   │ └── async@1.5.2
+21 silly currentTree   ├── postcss-calc@5.3.1
+21 silly currentTree   ├── postcss-colormin@2.2.2
+21 silly currentTree   ├── postcss-convert-values@2.6.1
+21 silly currentTree   ├── postcss-discard-comments@2.0.4
+21 silly currentTree   ├── postcss-discard-duplicates@2.1.0
+21 silly currentTree   ├── postcss-discard-empty@2.1.0
+21 silly currentTree   ├── postcss-discard-overridden@0.1.1
+21 silly currentTree   ├── postcss-discard-unused@2.2.3
+21 silly currentTree   ├── postcss-filter-plugins@2.0.2
+21 silly currentTree   ├─┬ postcss-loader@0.9.1
+21 silly currentTree   │ └── loader-utils@0.2.17
+21 silly currentTree   ├── postcss-merge-idents@2.1.7
+21 silly currentTree   ├── postcss-merge-longhand@2.0.2
+21 silly currentTree   ├── postcss-merge-rules@2.1.2
+21 silly currentTree   ├── postcss-message-helpers@2.0.0
+21 silly currentTree   ├── postcss-minify-font-values@1.0.5
+21 silly currentTree   ├── postcss-minify-gradients@1.0.5
+21 silly currentTree   ├── postcss-minify-params@1.2.2
+21 silly currentTree   ├── postcss-minify-selectors@2.1.1
+21 silly currentTree   ├─┬ postcss-modules-extract-imports@1.1.0
+21 silly currentTree   │ ├── ansi-styles@3.2.0
+21 silly currentTree   │ ├── chalk@2.1.0
+21 silly currentTree   │ ├── has-flag@2.0.0
+21 silly currentTree   │ ├── postcss@6.0.8
+21 silly currentTree   │ └── supports-color@4.2.1
+21 silly currentTree   ├─┬ postcss-modules-local-by-default@1.2.0
+21 silly currentTree   │ ├── ansi-styles@3.2.0
+21 silly currentTree   │ ├── chalk@2.1.0
+21 silly currentTree   │ ├── has-flag@2.0.0
+21 silly currentTree   │ ├── postcss@6.0.8
+21 silly currentTree   │ └── supports-color@4.2.1
+21 silly currentTree   ├─┬ postcss-modules-scope@1.1.0
+21 silly currentTree   │ ├── ansi-styles@3.2.0
+21 silly currentTree   │ ├── chalk@2.1.0
+21 silly currentTree   │ ├── has-flag@2.0.0
+21 silly currentTree   │ ├── postcss@6.0.8
+21 silly currentTree   │ └── supports-color@4.2.1
+21 silly currentTree   ├─┬ postcss-modules-values@1.3.0
+21 silly currentTree   │ ├── ansi-styles@3.2.0
+21 silly currentTree   │ ├── chalk@2.1.0
+21 silly currentTree   │ ├── has-flag@2.0.0
+21 silly currentTree   │ ├── postcss@6.0.8
+21 silly currentTree   │ └── supports-color@4.2.1
+21 silly currentTree   ├── postcss-normalize-charset@1.1.1
+21 silly currentTree   ├── postcss-normalize-url@3.0.8
+21 silly currentTree   ├── postcss-ordered-values@2.2.3
+21 silly currentTree   ├── postcss-reduce-idents@2.4.0
+21 silly currentTree   ├── postcss-reduce-initial@1.0.1
+21 silly currentTree   ├── postcss-reduce-transforms@1.0.4
+21 silly currentTree   ├── postcss-selector-parser@2.2.3
+21 silly currentTree   ├── postcss-svgo@2.1.6
+21 silly currentTree   ├── postcss-unique-selectors@2.0.2
+21 silly currentTree   ├── postcss-value-parser@3.3.0
+21 silly currentTree   ├── postcss-zindex@2.2.0
+21 silly currentTree   ├── postcss@5.2.17
+21 silly currentTree   ├── prelude-ls@1.1.2
+21 silly currentTree   ├── prepend-http@1.0.4
+21 silly currentTree   ├── preserve@0.2.0
+21 silly currentTree   ├── pretty-error@2.1.1
+21 silly currentTree   ├── process-nextick-args@1.0.7
+21 silly currentTree   ├── process@0.11.10
+21 silly currentTree   ├── promise@7.3.1
+21 silly currentTree   ├── proxy-addr@1.1.5
+21 silly currentTree   ├── prr@0.0.0
+21 silly currentTree   ├── pseudomap@1.0.2
+21 silly currentTree   ├── public-encrypt@4.0.0
+21 silly currentTree   ├── punycode@1.4.1
+21 silly currentTree   ├── q@1.5.0
+21 silly currentTree   ├── qs@6.4.0
+21 silly currentTree   ├── query-string@4.3.4
+21 silly currentTree   ├── querystring-es3@0.2.1
+21 silly currentTree   ├── querystring@0.2.0
+21 silly currentTree   ├── querystringify@0.0.4
+21 silly currentTree   ├─┬ randomatic@1.1.7
+21 silly currentTree   │ ├─┬ is-number@3.0.0
+21 silly currentTree   │ │ └── kind-of@3.2.2
+21 silly currentTree   │ └── kind-of@4.0.0
+21 silly currentTree   ├── randombytes@2.0.5
+21 silly currentTree   ├── range-parser@1.2.0
+21 silly currentTree   ├── raw-loader@0.5.1
+21 silly currentTree   ├── read-pkg-up@1.0.1
+21 silly currentTree   ├── read-pkg@1.1.0
+21 silly currentTree   ├── readable-stream@1.0.34
+21 silly currentTree   ├─┬ readdirp@2.1.0
+21 silly currentTree   │ ├── isarray@1.0.0
+21 silly currentTree   │ ├── readable-stream@2.3.3
+21 silly currentTree   │ └── string_decoder@1.0.3
+21 silly currentTree   ├── readline2@1.0.1
+21 silly currentTree   ├── redent@1.0.0
+21 silly currentTree   ├── reduce-css-calc@1.3.0
+21 silly currentTree   ├── reduce-function-call@1.0.2
+21 silly currentTree   ├── reflect-metadata@0.1.10
+21 silly currentTree   ├── regenerate@1.3.2
+21 silly currentTree   ├── regenerator-runtime@0.10.5
+21 silly currentTree   ├── regex-cache@0.4.3
+21 silly currentTree   ├── regexpu-core@1.0.0
+21 silly currentTree   ├── regjsgen@0.2.0
+21 silly currentTree   ├── regjsparser@0.1.5
+21 silly currentTree   ├── relateurl@0.2.7
+21 silly currentTree   ├─┬ remap-istanbul@0.6.4
+21 silly currentTree   │ └── amdefine@1.0.0
+21 silly currentTree   ├── remove-trailing-separator@1.0.2
+21 silly currentTree   ├─┬ renderkid@2.0.1
+21 silly currentTree   │ └── utila@0.3.3
+21 silly currentTree   ├── repeat-element@1.1.2
+21 silly currentTree   ├── repeat-string@1.6.1
+21 silly currentTree   ├── repeating@2.0.1
+21 silly currentTree   ├── replace-ext@0.0.1
+21 silly currentTree   ├── request@2.81.0
+21 silly currentTree   ├── require-directory@2.1.1
+21 silly currentTree   ├── require-main-filename@1.0.1
+21 silly currentTree   ├── requires-port@1.0.0
+21 silly currentTree   ├── resolve@1.4.0
+21 silly currentTree   ├── restore-cursor@1.0.1
+21 silly currentTree   ├── right-align@0.1.3
+21 silly currentTree   ├── rimraf@2.6.1
+21 silly currentTree   ├── ripemd160@2.0.1
+21 silly currentTree   ├── rsvp@3.6.2
+21 silly currentTree   ├── run-async@0.1.0
+21 silly currentTree   ├── rx-lite@3.1.2
+21 silly currentTree   ├── safe-buffer@5.1.1
+21 silly currentTree   ├── sass-graph@2.2.4
+21 silly currentTree   ├─┬ sass-loader@4.1.1
+21 silly currentTree   │ └── loader-utils@0.2.17
+21 silly currentTree   ├── sax@1.2.4
+21 silly currentTree   ├── schema-utils@0.3.0
+21 silly currentTree   ├── script-loader@0.7.0
+21 silly currentTree   ├─┬ scss-tokenizer@0.2.3
+21 silly currentTree   │ └── source-map@0.4.4
+21 silly currentTree   ├── select-hose@2.0.0
+21 silly currentTree   ├── semver@5.4.1
+21 silly currentTree   ├─┬ send@0.15.4
+21 silly currentTree   │ └── mime@1.3.4
+21 silly currentTree   ├── serve-index@1.9.0
+21 silly currentTree   ├── serve-static@1.12.4
+21 silly currentTree   ├── set-blocking@2.0.0
+21 silly currentTree   ├── set-immediate-shim@1.0.1
+21 silly currentTree   ├── setimmediate@1.0.5
+21 silly currentTree   ├── setprototypeof@1.0.3
+21 silly currentTree   ├── sha.js@2.4.8
+21 silly currentTree   ├── signal-exit@3.0.2
+21 silly currentTree   ├── silent-error@1.1.0
+21 silly currentTree   ├── sntp@1.0.9
+21 silly currentTree   ├─┬ sockjs-client@1.1.1
+21 silly currentTree   │ └── faye-websocket@0.11.1
+21 silly currentTree   ├─┬ sockjs@0.3.18
+21 silly currentTree   │ └── uuid@2.0.3
+21 silly currentTree   ├── sort-keys@1.1.2
+21 silly currentTree   ├── source-list-map@0.1.8
+21 silly currentTree   ├─┬ source-map-loader@0.1.6
+21 silly currentTree   │ ├── async@0.9.2
+21 silly currentTree   │ ├── loader-utils@0.2.17
+21 silly currentTree   │ └── source-map@0.1.43
+21 silly currentTree   ├── source-map-support@0.4.15
+21 silly currentTree   ├── source-map@0.5.6
+21 silly currentTree   ├─┬ sourcemap-istanbul-instrumenter-loader@0.2.0
+21 silly currentTree   │ └── loader-utils@0.2.17
+21 silly currentTree   ├── sparkles@1.0.0
+21 silly currentTree   ├── spdx-correct@1.0.2
+21 silly currentTree   ├── spdx-expression-parse@1.0.4
+21 silly currentTree   ├── spdx-license-ids@1.2.2
+21 silly currentTree   ├─┬ spdy-transport@2.0.20
+21 silly currentTree   │ ├── isarray@1.0.0
+21 silly currentTree   │ ├── readable-stream@2.3.3
+21 silly currentTree   │ └── string_decoder@1.0.3
+21 silly currentTree   ├── spdy@3.4.7
+21 silly currentTree   ├── sprintf-js@1.0.3
+21 silly currentTree   ├─┬ sshpk@1.13.1
+21 silly currentTree   │ └── assert-plus@1.0.0
+21 silly currentTree   ├── statuses@1.3.1
+21 silly currentTree   ├─┬ stdout-stream@1.4.0
+21 silly currentTree   │ ├── isarray@1.0.0
+21 silly currentTree   │ ├── readable-stream@2.3.3
+21 silly currentTree   │ └── string_decoder@1.0.3
+21 silly currentTree   ├─┬ stream-browserify@2.0.1
+21 silly currentTree   │ ├── isarray@1.0.0
+21 silly currentTree   │ ├── readable-stream@2.3.3
+21 silly currentTree   │ └── string_decoder@1.0.3
+21 silly currentTree   ├─┬ stream-http@2.7.2
+21 silly currentTree   │ ├── isarray@1.0.0
+21 silly currentTree   │ ├── readable-stream@2.3.3
+21 silly currentTree   │ └── string_decoder@1.0.3
+21 silly currentTree   ├── strict-uri-encode@1.1.0
+21 silly currentTree   ├── string_decoder@0.10.31
+21 silly currentTree   ├── string-width@1.0.2
+21 silly currentTree   ├── stringstream@0.0.5
+21 silly currentTree   ├── strip-ansi@3.0.1
+21 silly currentTree   ├── strip-bom@2.0.0
+21 silly currentTree   ├── strip-indent@1.0.1
+21 silly currentTree   ├── style-loader@0.13.2
+21 silly currentTree   ├─┬ stylus-loader@2.5.1
+21 silly currentTree   │ └── loader-utils@0.2.17
+21 silly currentTree   ├─┬ stylus@0.54.5
+21 silly currentTree   │ ├── glob@7.0.6
+21 silly currentTree   │ ├── sax@0.5.8
+21 silly currentTree   │ └── source-map@0.1.43
+21 silly currentTree   ├── supports-color@3.2.3
+21 silly currentTree   ├── svgo@0.7.2
+21 silly currentTree   ├── tapable@0.2.8
+21 silly currentTree   ├── tar@2.2.1
+21 silly currentTree   ├─┬ temp@0.8.3
+21 silly currentTree   │ └── rimraf@2.2.8
+21 silly currentTree   ├── through@2.3.8
+21 silly currentTree   ├─┬ through2@2.0.1
+21 silly currentTree   │ ├── isarray@1.0.0
+21 silly currentTree   │ └── readable-stream@2.0.6
+21 silly currentTree   ├── time-stamp@2.0.0
+21 silly currentTree   ├── timers-browserify@2.0.3
+21 silly currentTree   ├── to-arraybuffer@1.0.1
+21 silly currentTree   ├── toposort@1.0.3
+21 silly currentTree   ├── tough-cookie@2.3.2
+21 silly currentTree   ├── trim-newlines@1.0.0
+21 silly currentTree   ├── tsickle@0.2.6
+21 silly currentTree   ├── tty-browserify@0.0.0
+21 silly currentTree   ├── tunnel-agent@0.6.0
+21 silly currentTree   ├── tweetnacl@0.14.5
+21 silly currentTree   ├── type-check@0.3.2
+21 silly currentTree   ├── type-is@1.6.15
+21 silly currentTree   ├── typescript@2.0.10
+21 silly currentTree   ├─┬ uglify-js@3.0.27
+21 silly currentTree   │ └── commander@2.11.0
+21 silly currentTree   ├── uglify-to-browserify@1.0.2
+21 silly currentTree   ├── uniq@1.0.1
+21 silly currentTree   ├── uniqid@4.1.1
+21 silly currentTree   ├── uniqs@2.0.0
+21 silly currentTree   ├── unpipe@1.0.0
+21 silly currentTree   ├── upper-case@1.1.3
+21 silly currentTree   ├── url-loader@0.5.9
+21 silly currentTree   ├─┬ url-parse@1.1.9
+21 silly currentTree   │ └── querystringify@1.0.0
+21 silly currentTree   ├─┬ url@0.11.0
+21 silly currentTree   │ └── punycode@1.3.2
+21 silly currentTree   ├── util-deprecate@1.0.2
+21 silly currentTree   ├─┬ util@0.10.3
+21 silly currentTree   │ └── inherits@2.0.1
+21 silly currentTree   ├── utila@0.4.0
+21 silly currentTree   ├── utils-merge@1.0.0
+21 silly currentTree   ├── uuid@3.1.0
+21 silly currentTree   ├── validate-npm-package-license@3.0.1
+21 silly currentTree   ├── vary@1.1.1
+21 silly currentTree   ├── vendors@1.0.1
+21 silly currentTree   ├─┬ verror@1.10.0
+21 silly currentTree   │ └── assert-plus@1.0.0
+21 silly currentTree   ├── vinyl@0.5.3
+21 silly currentTree   ├── vlq@0.2.2
+21 silly currentTree   ├── vm-browserify@0.0.4
+21 silly currentTree   ├── walk-sync@0.2.7
+21 silly currentTree   ├── watchpack@1.4.0
+21 silly currentTree   ├── wbuf@1.7.2
+21 silly currentTree   ├── webpack-dev-middleware@1.12.0
+21 silly currentTree   ├─┬ webpack-dev-server@2.2.0-rc.0
+21 silly currentTree   │ ├── camelcase@3.0.0
+21 silly currentTree   │ ├── opn@4.0.2
+21 silly currentTree   │ ├── yargs-parser@4.2.1
+21 silly currentTree   │ └── yargs@6.6.0
+21 silly currentTree   ├── webpack-merge@2.6.1
+21 silly currentTree   ├── webpack-sources@0.1.5
+21 silly currentTree   ├─┬ webpack@2.2.0
+21 silly currentTree   │ ├── ajv@4.11.8
+21 silly currentTree   │ ├── camelcase@1.2.1
+21 silly currentTree   │ ├── cliui@2.1.0
+21 silly currentTree   │ ├── loader-utils@0.2.17
+21 silly currentTree   │ ├─┬ uglify-js@2.8.29
+21 silly currentTree   │ │ └── yargs@3.10.0
+21 silly currentTree   │ ├── wordwrap@0.0.2
+21 silly currentTree   │ ├─┬ yargs-parser@4.2.1
+21 silly currentTree   │ │ └── camelcase@3.0.0
+21 silly currentTree   │ └─┬ yargs@6.6.0
+21 silly currentTree   │   ├── camelcase@3.0.0
+21 silly currentTree   │   └── cliui@3.2.0
+21 silly currentTree   ├── websocket-driver@0.6.5
+21 silly currentTree   ├── websocket-extensions@0.1.1
+21 silly currentTree   ├── when@3.6.4
+21 silly currentTree   ├── whet.extend@0.9.9
+21 silly currentTree   ├── which-module@1.0.0
+21 silly currentTree   ├── which@1.3.0
+21 silly currentTree   ├── wide-align@1.1.2
+21 silly currentTree   ├── window-size@0.1.0
+21 silly currentTree   ├── wordwrap@1.0.0
+21 silly currentTree   ├── wrap-ansi@2.1.0
+21 silly currentTree   ├── wrappy@1.0.2
+21 silly currentTree   ├── xml-char-classes@1.0.0
+21 silly currentTree   ├── xtend@4.0.1
+21 silly currentTree   ├── y18n@3.2.1
+21 silly currentTree   ├── yallist@2.1.2
+21 silly currentTree   ├─┬ yargs-parser@5.0.0
+21 silly currentTree   │ └── camelcase@3.0.0
+21 silly currentTree   ├─┬ yargs@7.1.0
+21 silly currentTree   │ └── camelcase@3.0.0
+21 silly currentTree   └── zone.js@0.7.8
+22 silly idealTree lib
+23 silly generateActionsToTake Starting
+24 silly install generateActionsToTake
+25 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/@angular-cli/ast-tools/node_modules/minimist
+26 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/@angular-cli/ast-tools/node_modules/denodeify
+27 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/@angular-cli/ast-tools/node_modules/mkdirp/node_modules/minimist
+28 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/@angular-cli/ast-tools/node_modules/mkdirp
+29 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/@angular-cli/ast-tools/node_modules/source-map
+30 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/@angular-cli/ast-tools/node_modules/source-map-support
+31 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/@angular-cli/ast-tools/node_modules/symbol-observable
+32 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/@angular-cli/ast-tools/node_modules/rxjs
+33 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/@angular-cli/ast-tools/node_modules/typescript
+34 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/acorn
+35 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/acorn-dynamic-import
+36 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/abbrev
+37 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/ajv-keywords
+38 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/alphanum-sort
+39 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/amdefine
+40 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/ansi-escapes
+41 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/ansi-regex
+42 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/ansi-styles
+43 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/aproba
+44 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/are-we-there-yet/node_modules/isarray
+45 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/arr-flatten
+46 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/arr-diff
+47 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/array-differ
+48 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/array-find-index
+49 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/array-flatten
+50 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/array-uniq
+51 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/array-unique
+52 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/asap
+53 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/asn1
+54 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/assert-plus
+55 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/async-each
+56 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/async-foreach
+57 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/asynckit
+58 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/aws-sign2
+59 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/aws4
+60 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/balanced-match
+61 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/base64-js
+62 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/batch
+63 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/beeper
+64 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/big.js
+65 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/binary-extensions
+66 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/bluebird
+67 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/bn.js
+68 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/boolbase
+69 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/brace-expansion/node_modules/balanced-match
+70 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/brorand
+71 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/buffer-xor
+72 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/buffer/node_modules/isarray
+73 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/builtin-modules
+74 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/builtin-status-codes
+75 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/bytes
+76 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/camelcase
+77 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/caniuse-db
+78 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/caseless
+79 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/chalk/node_modules/supports-color
+80 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/cli-spinners
+81 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/cli-width
+82 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/clone
+83 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/clone-stats
+84 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/co
+85 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/code-point-at
+86 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/color-name
+87 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/color-convert
+88 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/color-string
+89 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/color
+90 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/colors
+91 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/commander
+92 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/concat-map
+93 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/brace-expansion
+94 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/connect-history-api-fallback
+95 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/console-control-strings
+96 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/constants-browserify
+97 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/content-disposition
+98 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/content-type
+99 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/cookie
+100 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/cookie-signature
+101 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/core-js
+102 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/core-util-is
+103 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/css-color-names
+104 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/css-parse
+105 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/css-what
+106 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/cssesc
+107 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/currently-unhandled
+108 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/dashdash/node_modules/assert-plus
+109 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/dashdash
+110 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/date-now
+111 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/console-browserify
+112 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/decamelize
+113 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/deep-is
+114 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/defined
+115 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/delayed-stream
+116 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/combined-stream
+117 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/delegates
+118 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/depd
+119 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/destroy
+120 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/detect-node
+121 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/dom-converter
+122 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/dom-converter/node_modules/utila
+123 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/dom-serializer/node_modules/domelementtype
+124 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/domain-browser
+125 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/domelementtype
+126 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/dom-walk
+127 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/domhandler
+128 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/ee-first
+129 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/electron-to-chromium
+130 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/emojis-list
+131 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/browserslist
+132 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/encodeurl
+133 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/ensure-posix-path
+134 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/entities
+135 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/dom-serializer
+136 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/domutils
+137 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/escape-html
+138 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/escape-string-regexp
+139 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/escodegen/node_modules/source-map
+140 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/esprima
+141 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/estraverse
+142 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/etag
+143 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/esutils
+144 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/eventemitter3
+145 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/events
+146 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/exit-hook
+147 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/express/node_modules/qs
+148 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/extend
+149 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/extract-text-webpack-plugin/node_modules/source-list-map
+150 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/extsprintf
+151 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/fancy-log/node_modules/time-stamp
+152 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/fast-deep-equal
+153 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/fast-levenshtein
+154 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/fastparse
+155 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/filename-regex
+156 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/fileset/node_modules/minimatch
+157 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/findup/node_modules/colors
+158 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/flatten
+159 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/for-own
+160 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/for-in
+161 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/forever-agent
+162 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/forwarded
+163 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/fresh
+164 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/fs.realpath
+165 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/function-bind
+166 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/get-caller-file
+167 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/get-stdin
+168 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/getpass/node_modules/assert-plus
+169 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/getpass
+170 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/graceful-fs
+171 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/global/node_modules/process
+172 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/gulp-util/node_modules/object-assign
+173 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/handle-thing
+174 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/handlebars/node_modules/async
+175 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/handlebars/node_modules/camelcase
+176 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/handlebars/node_modules/source-map
+177 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map
+178 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/handlebars/node_modules/wordwrap
+179 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/har-schema
+180 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/has
+181 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/colormin
+182 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/has-ansi
+183 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/has-flag
+184 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/has-unicode
+185 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/he
+186 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/hoek
+187 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/boom
+188 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/cryptiles
+189 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/hosted-git-info
+190 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/hpack.js/node_modules/isarray
+191 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/html-comment-regex
+192 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/html-minifier/node_modules/commander
+193 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/htmlparser2/node_modules/domutils
+194 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/http-deceiver
+195 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/http-proxy-middleware/node_modules/is-extglob
+196 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/http-proxy-middleware/node_modules/is-glob
+197 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/https-browserify
+198 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/icss-replace-symbols
+199 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/ieee754
+200 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/buffer
+201 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/image-size
+202 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/in-publish
+203 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/indexes-of
+204 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/indexof
+205 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/inherits
+206 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/block-stream
+207 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/hash-base
+208 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/interpret
+209 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/invert-kv
+210 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/ipaddr.js
+211 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/is-absolute-url
+212 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/is-arrayish
+213 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/is-binary-path
+214 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/is-buffer
+215 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/error-ex
+216 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/is-builtin-module
+217 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/is-dotfile
+218 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/is-extendable
+219 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/is-extglob
+220 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/extglob
+221 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/is-glob
+222 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/glob-parent
+223 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/is-plain-obj
+224 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/is-posix-bracket
+225 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/glob-base
+226 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/expand-brackets
+227 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/is-primitive
+228 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/is-equal-shallow
+229 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/is-svg
+230 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/is-typedarray
+231 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/is-utf8
+232 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/isarray
+233 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/isexe
+234 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/isobject/node_modules/isarray
+235 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/isobject
+236 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/isstream
+237 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/istanbul/node_modules/abbrev
+238 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/istanbul/node_modules/async
+239 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/istanbul/node_modules/resolve
+240 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/js-base64
+241 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/js-tokens
+242 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/jsbn
+243 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/ecc-jsbn
+244 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/jsesc
+245 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/json-loader
+246 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/json-schema
+247 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/json-schema-traverse
+248 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/json-stringify-safe
+249 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/json3
+250 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/json5
+251 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/jsonfile
+252 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/jsonify
+253 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/json-stable-stringify
+254 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/ajv
+255 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/har-validator/node_modules/ajv
+256 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/har-validator
+257 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/karma-webpack/node_modules/async
+258 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/jsprim/node_modules/assert-plus
+259 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/karma-webpack/node_modules/lodash
+260 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/karma-webpack/node_modules/source-map
+261 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/kind-of
+262 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/is-number
+263 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/klaw
+264 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/lazy-cache
+265 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/lcid
+266 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/loader-runner
+267 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/loader-utils
+268 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/lodash
+269 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/lodash._basecopy
+270 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/lodash._basetostring
+271 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/async
+272 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/lodash._basevalues
+273 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/lodash._getnative
+274 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/lodash._isiterateecall
+275 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/lodash._reescape
+276 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/lodash._reevaluate
+277 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/lodash._reinterpolate
+278 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/lodash._root
+279 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/lodash.assign
+280 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/lodash.camelcase
+281 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/lodash.clonedeep
+282 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/lodash.escape
+283 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/lodash.isarguments
+284 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/lodash.isarray
+285 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/lodash.keys
+286 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/lodash.memoize
+287 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/lodash.mergewith
+288 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/lodash.restparam
+289 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/lodash.templatesettings
+290 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/lodash.template
+291 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/lodash.uniq
+292 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/caniuse-api
+293 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/longest
+294 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/lower-case
+295 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/map-obj
+296 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/macaddress
+297 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/camelcase-keys
+298 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/math-expression-evaluator
+299 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/media-typer
+300 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/memory-fs/node_modules/isarray
+301 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/merge-descriptors
+302 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/methods
+303 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/miller-rabin
+304 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/mime
+305 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/compressible
+306 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/mime-db
+307 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/mime-types
+308 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/form-data
+309 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/global
+310 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/min-document
+311 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/minimalistic-assert
+312 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/asn1.js
+313 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/des.js
+314 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/hash.js
+315 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/minimalistic-crypto-utils
+316 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/hmac-drbg
+317 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/elliptic
+318 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/minimatch
+319 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/create-ecdh
+320 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/matcher-collection
+321 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/minimist
+322 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/mkdirp/node_modules/minimist
+323 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/mkdirp
+324 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/ms
+325 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/debug
+326 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/mute-stream
+327 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/nan
+328 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/negotiator
+329 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/accepts
+330 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/no-case
+331 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/node-gyp/node_modules/semver
+332 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/node-libs-browser/node_modules/isarray
+333 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/nopt
+334 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/normalize-range
+335 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/nth-check
+336 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/css-select
+337 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/num2fraction
+338 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/number-is-nan
+339 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/is-finite
+340 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/is-fullwidth-code-point
+341 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/oauth-sign
+342 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/object-assign
+343 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/figures
+344 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/file-loader/node_modules/loader-utils
+345 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/html-webpack-plugin/node_modules/loader-utils
+346 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/karma-webpack/node_modules/loader-utils
+347 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/less-loader/node_modules/loader-utils
+348 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/object.omit
+349 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/obuf
+350 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/on-finished
+351 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/on-headers
+352 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/onetime
+353 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/optimist/node_modules/minimist
+354 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/optimist/node_modules/wordwrap
+355 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/optimist
+356 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/os-browserify
+357 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/os-homedir
+358 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/os-locale
+359 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/os-tmpdir
+360 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/pako
+361 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/osenv
+362 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/browserify-zlib
+363 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/param-case
+364 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/parse-glob
+365 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/parse-json
+366 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/parseurl
+367 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/path-browserify
+368 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/path-is-absolute
+369 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/path-parse
+370 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/path-to-regexp
+371 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/performance-now
+372 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/pify
+373 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/pinkie
+374 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/pinkie-promise
+375 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/path-exists
+376 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/find-up
+377 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/path-type
+378 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/portfinder/node_modules/async
+379 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/portfinder
+380 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-loader/node_modules/loader-utils
+381 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-message-helpers
+382 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-modules-extract-imports/node_modules/ansi-styles
+383 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-modules-extract-imports/node_modules/has-flag
+384 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-modules-extract-imports/node_modules/supports-color
+385 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-modules-extract-imports/node_modules/chalk
+386 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-modules-local-by-default/node_modules/ansi-styles
+387 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-modules-local-by-default/node_modules/has-flag
+388 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-modules-local-by-default/node_modules/supports-color
+389 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-modules-local-by-default/node_modules/chalk
+390 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-modules-scope/node_modules/ansi-styles
+391 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-modules-scope/node_modules/has-flag
+392 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-modules-scope/node_modules/supports-color
+393 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-modules-scope/node_modules/chalk
+394 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-modules-values/node_modules/ansi-styles
+395 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-modules-values/node_modules/has-flag
+396 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-modules-values/node_modules/supports-color
+397 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-modules-values/node_modules/chalk
+398 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-value-parser
+399 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/prelude-ls
+400 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/prepend-http
+401 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/preserve
+402 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/process
+403 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/promise
+404 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/proxy-addr
+405 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/process-nextick-args
+406 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/prr
+407 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/errno
+408 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/pseudomap
+409 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/punycode
+410 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/q
+411 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/coa
+412 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/qs
+413 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/querystring
+414 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/querystring-es3
+415 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/querystringify
+416 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/randomatic/node_modules/is-number/node_modules/kind-of
+417 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/randomatic/node_modules/is-number
+418 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/randomatic/node_modules/kind-of
+419 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/randomatic
+420 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/range-parser
+421 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/raw-loader
+422 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/readdirp/node_modules/isarray
+423 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/readline2
+424 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/reduce-function-call
+425 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/reduce-css-calc
+426 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/reflect-metadata
+427 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/regenerate
+428 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/regenerator-runtime
+429 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/babel-runtime
+430 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/regex-cache
+431 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/regjsgen
+432 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/regjsparser
+433 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/regexpu-core
+434 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/css-selector-tokenizer
+435 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/relateurl
+436 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/remap-istanbul/node_modules/amdefine
+437 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/normalize-path
+438 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/remove-trailing-separator
+439 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/renderkid/node_modules/utila
+440 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/repeat-element
+441 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/repeat-string
+442 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/align-text
+443 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/center-align
+444 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/fill-range
+445 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/expand-range
+446 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/braces
+447 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/micromatch
+448 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/anymatch
+449 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/repeating
+450 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/indent-string
+451 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/replace-ext
+452 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/require-main-filename
+453 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/require-directory
+454 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/requires-port
+455 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/http-proxy
+456 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/http-proxy-middleware
+457 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/original/node_modules/url-parse
+458 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/original
+459 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/eventsource
+460 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/cli-cursor
+461 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/restore-cursor
+462 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/right-align
+463 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/handlebars/node_modules/cliui
+464 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/ripemd160
+465 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/rx-lite
+466 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/safe-buffer
+467 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/are-we-there-yet/node_modules/string_decoder
+468 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/cipher-base
+469 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/browserify-des
+470 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/hpack.js/node_modules/string_decoder
+471 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/memory-fs/node_modules/string_decoder
+472 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/node-libs-browser/node_modules/readable-stream/node_modules/string_decoder
+473 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/randombytes
+474 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/browserify-rsa
+475 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/diffie-hellman
+476 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/readdirp/node_modules/string_decoder
+477 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/sass-loader/node_modules/loader-utils
+478 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/sax
+479 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/schema-utils
+480 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/scss-tokenizer/node_modules/source-map
+481 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/scss-tokenizer
+482 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/select-hose
+483 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/semver
+484 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/send/node_modules/mime
+485 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/set-blocking
+486 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/set-immediate-shim
+487 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/setimmediate
+488 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/setprototypeof
+489 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/sha.js
+490 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/create-hash
+491 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/evp_bytestokey
+492 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/browserify-aes
+493 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/browserify-cipher
+494 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/create-hmac
+495 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/pbkdf2
+496 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/parse-asn1
+497 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/browserify-sign
+498 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/public-encrypt
+499 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/crypto-browserify
+500 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/signal-exit
+501 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/loud-rejection
+502 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/silent-error
+503 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/sntp
+504 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/hawk
+505 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/sockjs/node_modules/uuid
+506 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/sort-keys
+507 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/source-list-map
+508 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/source-map
+509 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/clean-css
+510 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/extract-text-webpack-plugin/node_modules/webpack-sources
+511 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-modules-extract-imports/node_modules/postcss
+512 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-modules-extract-imports
+513 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-modules-local-by-default/node_modules/postcss
+514 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-modules-local-by-default
+515 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-modules-scope/node_modules/postcss
+516 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-modules-scope
+517 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-modules-values/node_modules/postcss
+518 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-modules-values
+519 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/source-map-loader/node_modules/async
+520 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/source-map-loader/node_modules/loader-utils
+521 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/source-map-loader/node_modules/source-map
+522 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/source-map-support
+523 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/sourcemap-istanbul-instrumenter-loader/node_modules/loader-utils
+524 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/sparkles
+525 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/glogg
+526 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/gulplog
+527 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/has-gulplog
+528 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/spdx-expression-parse
+529 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/spdx-license-ids
+530 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/spdx-correct
+531 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/spdy-transport/node_modules/isarray
+532 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/spdy-transport/node_modules/string_decoder
+533 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/sprintf-js
+534 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/argparse
+535 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/js-yaml
+536 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/sshpk/node_modules/assert-plus
+537 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/statuses
+538 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/http-errors
+539 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/serve-index
+540 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/send
+541 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/serve-static
+542 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/stdout-stream/node_modules/isarray
+543 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/stdout-stream/node_modules/string_decoder
+544 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/stream-browserify/node_modules/isarray
+545 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/stream-browserify/node_modules/string_decoder
+546 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/stream-http/node_modules/isarray
+547 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/stream-http/node_modules/string_decoder
+548 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/strict-uri-encode
+549 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/query-string
+550 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/normalize-url
+551 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/string_decoder
+552 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/duplexer2/node_modules/readable-stream
+553 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/duplexer2
+554 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/multipipe
+555 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/readable-stream
+556 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/htmlparser2
+557 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/stringstream
+558 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/strip-ansi
+559 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/chalk
+560 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/babel-code-frame
+561 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/clap
+562 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/csso
+563 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/fancy-log
+564 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/renderkid
+565 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/string-width
+566 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/strip-bom
+567 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/load-json-file
+568 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/strip-indent
+569 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/redent
+570 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/stylus-loader/node_modules/loader-utils
+571 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/stylus/node_modules/source-map
+572 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/supports-color
+573 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/stylus/node_modules/sax
+574 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss
+575 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/autoprefixer
+576 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-calc
+577 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-colormin
+578 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-convert-values
+579 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-discard-duplicates
+580 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-discard-comments
+581 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-discard-empty
+582 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-discard-overridden
+583 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-merge-idents
+584 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-merge-longhand
+585 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-minify-font-values
+586 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-minify-gradients
+587 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-normalize-charset
+588 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-normalize-url
+589 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-ordered-values
+590 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-reduce-idents
+591 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-reduce-initial
+592 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-reduce-transforms
+593 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/tapable
+594 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/temp/node_modules/rimraf
+595 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/through
+596 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/through2/node_modules/isarray
+597 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/time-stamp
+598 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/timers-browserify
+599 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/to-arraybuffer
+600 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/toposort
+601 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/tough-cookie
+602 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/trim-newlines
+603 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/tsickle
+604 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/@angular/tsc-wrapped
+605 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/tty-browserify
+606 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/tunnel-agent
+607 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/tweetnacl
+608 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/bcrypt-pbkdf
+609 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/type-check
+610 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/sshpk
+611 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/levn
+612 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/type-is
+613 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/uglify-js/node_modules/commander
+614 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/uglify-js
+615 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/uglify-to-browserify
+616 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-selector-parser
+617 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/uniq
+618 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-minify-selectors
+619 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/uniqid
+620 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-filter-plugins
+621 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/uniqs
+622 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-discard-unused
+623 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-minify-params
+624 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-unique-selectors
+625 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-zindex
+626 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/unpipe
+627 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/upper-case
+628 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/finalhandler
+629 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/camel-case
+630 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/url-parse/node_modules/querystringify
+631 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/url-parse
+632 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/util-deprecate
+633 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/url
+634 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/url/node_modules/punycode
+635 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/are-we-there-yet/node_modules/readable-stream
+636 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/are-we-there-yet
+637 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/hpack.js/node_modules/readable-stream
+638 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/memory-fs/node_modules/readable-stream
+639 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/memory-fs
+640 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/enhanced-resolve
+641 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/node-libs-browser/node_modules/readable-stream
+642 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/readdirp/node_modules/readable-stream
+643 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/readdirp
+644 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/chokidar
+645 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/spdy-transport/node_modules/readable-stream
+646 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/stdout-stream/node_modules/readable-stream
+647 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/stdout-stream
+648 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/stream-browserify/node_modules/readable-stream
+649 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/stream-browserify
+650 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/stream-http/node_modules/readable-stream
+651 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/through2/node_modules/readable-stream
+652 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/util/node_modules/inherits
+653 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/util
+654 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/assert
+655 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/utila
+656 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/pretty-error
+657 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/utils-merge
+658 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/uuid
+659 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/normalize-package-data
+660 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/read-pkg
+661 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/validate-npm-package-license
+662 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/read-pkg-up
+663 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/meow
+664 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/dateformat
+665 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/vary
+666 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/compression
+667 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/express
+668 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/vendors
+669 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-merge-rules
+670 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/verror/node_modules/assert-plus
+671 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/verror
+672 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/jsprim
+673 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/http-signature
+674 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/request
+675 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/vinyl
+676 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/vlq
+677 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/magic-string
+678 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/vm-browserify
+679 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/watchpack
+680 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/hpack.js
+681 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/wbuf
+682 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/spdy-transport
+683 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/spdy
+684 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/webpack-dev-middleware
+685 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/webpack-dev-server/node_modules/camelcase
+686 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/webpack-dev-server/node_modules/opn
+687 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/webpack-sources
+688 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/webpack-dev-server/node_modules/yargs-parser
+689 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/webpack/node_modules/ajv
+690 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/webpack/node_modules/camelcase
+691 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/webpack/node_modules/loader-utils
+692 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/webpack/node_modules/wordwrap
+693 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/webpack/node_modules/cliui
+694 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/webpack/node_modules/yargs-parser/node_modules/camelcase
+695 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/webpack/node_modules/yargs-parser
+696 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/webpack/node_modules/yargs/node_modules/camelcase
+697 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/websocket-extensions
+698 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/websocket-driver
+699 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/faye-websocket
+700 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/sockjs
+701 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/sockjs-client/node_modules/faye-websocket
+702 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/sockjs-client
+703 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/when
+704 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/whet.extend
+705 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/svgo
+706 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-svgo
+707 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/cssnano
+708 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/which
+709 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/which-module
+710 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/wide-align
+711 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/gauge
+712 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/npmlog
+713 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/window-size
+714 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/handlebars/node_modules/yargs
+715 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/handlebars/node_modules/uglify-js
+716 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/handlebars
+717 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/webpack/node_modules/uglify-js/node_modules/yargs
+718 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/webpack/node_modules/uglify-js
+719 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/wordwrap
+720 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/optionator
+721 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/escodegen
+722 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/wrap-ansi
+723 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/cliui
+724 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/webpack/node_modules/yargs/node_modules/cliui
+725 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/wrappy
+726 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/once
+727 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/inflight
+728 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/fileset/node_modules/glob
+729 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/fileset
+730 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/glob
+731 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/globule
+732 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/gaze
+733 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/rimraf
+734 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/fstream
+735 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/tar
+736 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/node-gyp
+737 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/istanbul
+738 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/run-async
+739 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/stylus/node_modules/glob
+740 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/xml-char-classes
+741 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/ncname
+742 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/html-minifier
+743 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/xtend
+744 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/stream-http
+745 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/node-libs-browser
+746 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/through2
+747 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/gulp-util
+748 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/y18n
+749 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/webpack-dev-server/node_modules/yargs
+750 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/webpack/node_modules/yargs
+751 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/yallist
+752 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/lru-cache
+753 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/cross-spawn
+754 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/yargs-parser/node_modules/camelcase
+755 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/yargs-parser
+756 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/yargs/node_modules/camelcase
+757 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/yargs
+758 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/sass-graph
+759 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/@angular-cli/ast-tools
+760 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/@angular-cli/ast-tools/node_modules/tsickle
+761 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/@angular-cli/base-href-webpack
+762 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/@angular/compiler
+763 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/@angular/compiler-cli
+764 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/@angular/core
+765 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/@ngtools/json-schema
+766 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/@ngtools/webpack
+767 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/common-tags
+768 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/css-loader
+769 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/denodeify
+770 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/diff
+771 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/ember-cli-normalize-entity-name
+772 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/ember-cli-string-utils
+773 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/exists-sync
+774 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/extract-text-webpack-plugin
+775 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/file-loader
+776 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/fs-extra
+777 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/findup
+778 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/html-webpack-plugin
+779 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/inflection
+780 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/inquirer
+781 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/karma-sourcemap-loader
+782 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/karma-webpack
+783 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/isbinaryfile
+784 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/less
+785 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/less-loader
+786 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/node-modules-path
+787 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/node-sass
+788 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/opn
+789 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/ora
+790 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/remap-istanbul
+791 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-loader
+792 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/resolve
+793 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/rsvp
+794 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/sass-loader
+795 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/script-loader
+796 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/source-map-loader
+797 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/sourcemap-istanbul-instrumenter-loader
+798 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/stylus
+799 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/stylus-loader
+800 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/style-loader
+801 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/temp
+802 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/typescript
+803 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/url-loader
+804 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/walk-sync
+805 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/webpack
+806 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/webpack-dev-server
+807 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/webpack-merge
+808 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/zone.js
+809 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli
+810 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/@angular-cli/ast-tools/node_modules
+811 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/@angular-cli/ast-tools/node_modules/mkdirp/node_modules
+812 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules
+813 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/are-we-there-yet/node_modules
+814 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/brace-expansion/node_modules
+815 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/buffer/node_modules
+816 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/chalk/node_modules
+817 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/dashdash/node_modules
+818 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/dom-converter/node_modules
+819 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/dom-serializer/node_modules
+820 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/escodegen/node_modules
+821 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/express/node_modules
+822 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/extract-text-webpack-plugin/node_modules
+823 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/fancy-log/node_modules
+824 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/fileset/node_modules
+825 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/findup/node_modules
+826 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/getpass/node_modules
+827 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/global/node_modules
+828 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/gulp-util/node_modules
+829 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/handlebars/node_modules
+830 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/handlebars/node_modules/uglify-js/node_modules
+831 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/hpack.js/node_modules
+832 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/html-minifier/node_modules
+833 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/htmlparser2/node_modules
+834 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/http-proxy-middleware/node_modules
+835 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/isobject/node_modules
+836 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/istanbul/node_modules
+837 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/har-validator/node_modules
+838 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/karma-webpack/node_modules
+839 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/jsprim/node_modules
+840 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/memory-fs/node_modules
+841 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/mkdirp/node_modules
+842 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/node-gyp/node_modules
+843 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/node-libs-browser/node_modules
+844 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/file-loader/node_modules
+845 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/html-webpack-plugin/node_modules
+846 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/less-loader/node_modules
+847 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/optimist/node_modules
+848 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/portfinder/node_modules
+849 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-loader/node_modules
+850 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-modules-extract-imports/node_modules
+851 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-modules-local-by-default/node_modules
+852 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-modules-scope/node_modules
+853 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/postcss-modules-values/node_modules
+854 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/randomatic/node_modules/is-number/node_modules
+855 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/randomatic/node_modules
+856 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/readdirp/node_modules
+857 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/remap-istanbul/node_modules
+858 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/renderkid/node_modules
+859 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/original/node_modules
+860 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/node-libs-browser/node_modules/readable-stream/node_modules
+861 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/sass-loader/node_modules
+862 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/scss-tokenizer/node_modules
+863 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/send/node_modules
+864 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/sockjs/node_modules
+865 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/source-map-loader/node_modules
+866 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/sourcemap-istanbul-instrumenter-loader/node_modules
+867 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/spdy-transport/node_modules
+868 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/sshpk/node_modules
+869 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/stdout-stream/node_modules
+870 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/stream-browserify/node_modules
+871 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/stream-http/node_modules
+872 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/duplexer2/node_modules
+873 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/stylus-loader/node_modules
+874 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/stylus/node_modules
+875 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/temp/node_modules
+876 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/through2/node_modules
+877 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/@angular
+878 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/uglify-js/node_modules
+879 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/url-parse/node_modules
+880 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/url/node_modules
+881 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/util/node_modules
+882 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/verror/node_modules
+883 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/webpack-dev-server/node_modules
+884 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/webpack/node_modules
+885 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/webpack/node_modules/yargs-parser/node_modules
+886 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/webpack/node_modules/yargs/node_modules
+887 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/sockjs-client/node_modules
+888 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/webpack/node_modules/uglify-js/node_modules
+889 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/yargs-parser/node_modules
+890 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/yargs/node_modules
+891 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/@angular-cli
+892 warn checkPermissions Missing write access to /usr/lib/node_modules/angular-cli/node_modules/@ngtools
+893 warn checkPermissions Missing write access to /usr/lib/node_modules
+894 silly rollbackFailedOptional Starting
+895 silly rollbackFailedOptional Finishing
+896 silly runTopLevelLifecycles Finishing
+897 silly install printInstalled
+898 verbose stack Error: EACCES: permission denied, access '/usr/lib/node_modules/angular-cli/node_modules/@angular-cli/ast-tools/node_modules/minimist'
+898 verbose stack     at Error (native)
+899 verbose cwd /home/ysliu/coj
+900 error Linux 4.10.0-30-generic
+901 error argv "/usr/bin/nodejs" "/usr/bin/npm" "uninstall" "-g" "angular-cli"
+902 error node v6.10.0
+903 error npm  v3.10.10
+904 error path /usr/lib/node_modules/angular-cli/node_modules/@angular-cli/ast-tools/node_modules/minimist
+905 error code EACCES
+906 error errno -13
+907 error syscall access
+908 error Error: EACCES: permission denied, access '/usr/lib/node_modules/angular-cli/node_modules/@angular-cli/ast-tools/node_modules/minimist'
+908 error     at Error (native)
+908 error  { Error: EACCES: permission denied, access '/usr/lib/node_modules/angular-cli/node_modules/@angular-cli/ast-tools/node_modules/minimist'
+908 error     at Error (native)
+908 error   errno: -13,
+908 error   code: 'EACCES',
+908 error   syscall: 'access',
+908 error   path: '/usr/lib/node_modules/angular-cli/node_modules/@angular-cli/ast-tools/node_modules/minimist' }
+909 error Please try running this command again as root/Administrator.
+910 verbose exit [ -13, true ]
